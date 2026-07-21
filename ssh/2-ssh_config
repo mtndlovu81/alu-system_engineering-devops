@@ -1,0 +1,3 @@
+Host 100.24.19.231
+    IdentityFile ~/.ssh/school
+    IdentitiesOnly yes
