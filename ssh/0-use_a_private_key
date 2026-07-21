@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
+# script that connects to a remote server
+
 
 # Configuration
-KEY_PATH="$HOME/.ssh/aluswe"
+KEY_PATH="$HOME/.ssh/school"
 REMOTE_USER="ubuntu"
 REMOTE_HOST="100.24.19.231"
 
