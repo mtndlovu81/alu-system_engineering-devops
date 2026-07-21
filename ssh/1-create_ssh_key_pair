@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# script that creates an ssh keypair
+
+
+ssh-keygen -t rsa -b 4096 -f ~/.ssh/school -N "betty" -C "school2-key"
