@@ -1,0 +1,12 @@
+#!/bin/env bash
+
+# Configuration
+KEY_PATH="$HOME/.ssh/aluswe"
+REMOTE_USER="ubuntu"
+REMOTE_HOST="100.24.19.231"
+
+# Optional: enforce correct key permissions (SSH will refuse loose ones)
+chmod 600 "$KEY_PATH"
+
+# Connect
+ssh -i "$KEY_PATH" "${REMOTE_USER}@${REMOTE_HOST}"
